@@ -8,6 +8,17 @@
   </head>
   <body>
     <h1>Cafe Finder</h1>
+    <div class="kontrol">
+      <label
+        >Radius:
+        <select id="radius">
+          <option value="500">500 m</option>
+          <option value="1000" selected>1 km</option>
+          <option value="3000">3 km</option>
+        </select>
+      </label>
+      <label><input type="checkbox" id="filter-favorit" /> Favorit saja</label>
+    </div>
     <div class="container">
       <div id="map"></div>
       <ul id="daftar-cafe"></ul>

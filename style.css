@@ -11,3 +11,10 @@ body { font-family: sans-serif; margin: 0; padding: 16px; }
 }
 #daftar-cafe li { padding: 10px; border-bottom: 1px solid #ddd; cursor: pointer; }
 #daftar-cafe li:hover { background: #f3f3f3; }
+
+.detail-cafe img { width: 100%; max-width: 250px; border-radius: 8px; }
+.detail-cafe > * { display: block; margin-top: 4px; }
+
+.kontrol { display: flex; gap: 16px; margin-bottom: 12px; }
+#daftar-cafe li { display: flex; justify-content: space-between; align-items: center; }
+.tombol-favorit { border: none; background: none; font-size: 20px; cursor: pointer; }
